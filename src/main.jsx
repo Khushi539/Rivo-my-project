@@ -8,7 +8,7 @@ import { BrowserRouter } from 'react-router-dom'
 import  CartProvider from "./context/CartContext.jsx"
 import FavoriteProvider from './context/FavoriteContext.jsx'
 import {Provider} from "react-redux";
-import store from "./redux/store.jsx"
+import { store } from './redux/store.jsx';
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
